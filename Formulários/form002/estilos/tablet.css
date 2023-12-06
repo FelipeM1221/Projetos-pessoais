@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to bottom, #00101a, #00101ae3);
+}
+
+main{ 
+    width: 767px;
+    height: 50vh;    
+    transition-duration: 0.3s;
+}
+
+main > div#image{
+    width: 30%;
+    height: 100%;
+    border-top-right-radius: 0;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    overflow: hidden;
+}
+
+main > section{
+    right: 0;
+    top: 0;
+    width: 70%;
+    height: 100%;
+
+    border-top-right-radius: 18px;
+}      
+
+input#iemail{
+    width: 467px;
+}
+
+input#ipsw{
+    width: 467px;
+}
+
+input#ientrar{
+    width: 517px;
+}
+
+input#irecuperar{
+    width: 517px;
+}

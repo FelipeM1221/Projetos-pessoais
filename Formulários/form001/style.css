@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "lilita one";
+    src: url(Fonts/LilitaOne-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f5005634;
+    font-family: "lilita one";
+}
+
+main{
+    position: relative;
+    background-image: url(imagens/undraw_my_password_re_ydq7.svg);  
+    max-width: 493px;
+    min-height: 481px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    margin-top: 10vh;
+
+}
+
+main > section{
+    position: absolute;
+    top: 16vh;
+}
+
+main > section > form{
+    padding: 10px;
+}
+
+main > section > form > legend{
+    font-family: "lilita one";
+    font-size: 1.2em;
+    text-shadow: 2px 2px 5px #f500568f;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+main > section > form p{
+    margin-top: 20px;
+}
+
+input.box{
+    padding: 2px;
+    border-radius: 10px;
+    border-color: #f50057;
+}
+
+input#iemail{
+    margin-left: 20px;
+}
+
+input#ilogin{
+    margin-left: 120px;
+}
+
+input#ilogin{
+    width: 100px;
+    margin-top: -10px;
+    margin-left: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #f50057;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.719);
+    font-family: "lilita one";
+}
+
+input#ilogin:hover{
+    scale: 0.91;
+    background-color: #f50057;
+    transition-duration: 0.2s;
+}
