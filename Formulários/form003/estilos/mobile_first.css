@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+html, body{
+    height: 100vh;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../imagens/pexels-miriam-espacio-1881621.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    backdrop-filter: blur(3px);
+}
+
+main{ 
+    position: absolute;
+    display: block;
+    width: 366px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: #febbba30 ;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.185);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+main > section#titulo{
+    text-align: center;
+}
