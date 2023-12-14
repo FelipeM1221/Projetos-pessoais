@@ -17,28 +17,51 @@
     <main>
         <section id="titulo">
             <h1>Login</h1>
+
+            <p>
+                Seja bem vind(a) a nossa página de login. Preencha seus dados para entrar e obter todos os recursos disponíveis.
+            </p>
+
+            <p id="time">
+
+            </p>
+
         </section>
 
-        <section>
+        <section id="dados">
             <form action="" method="get" autocomplete="on">
                 <div id="emaill" class="input">
-                    <span class="material-symbols-outlined">mail</span> <input type="email" id="iemail" name="email" placeholder="E-mail" autocomplete="email"  required>
+                    <span class="material-symbols-outlined">mail</span> <input type="email" id="iemail" class="caixa" name="email" placeholder="  E-mail" autocomplete="email"  required>
                     <label for="iemail"></label><br><br>
                 </div>
 
                 <div id="psww" class="input">
-                    <span class="material-symbols-outlined">key</span> <input type="password" id="ipsw" name="psw" placeholder="Senha" autocomplete="current-password" required> 
+                    <span class="material-symbols-outlined">key</span> <input type="password" id="ipsw" class="caixa" name="psw" placeholder="  Senha" autocomplete="current-password" required> 
                     <label for="ipsw"></label><br><br>
                 </div>
 
-                <input type="checkbox" id="icheck" name="check">
-                <label for="icheck">Lembrar-me mais tarde</label>
+                <div id="submit">
+                    <input type="submit" value="Login" id="ilogin">
+                </div>
 
-                <div>
-                    <input type="submit" value="Login">
+                
+                <div id="check">
+                    <input type="checkbox" id="icheck" name="check">
+                    <label for="icheck">Lembrar-me mais tarde</label>
                 </div>
             </form>
         </section>
     </main>   
+
+    <script>
+        var timeDisplay = window.document.getElementById('time')
+        function nowtime(){            
+            var date = new Date().toLocaleString("pt-BR", {timeZone: "America/Sao_Paulo"})
+            var stringDate = date.replace(',',':')
+            timeDisplay.innerHTML = stringDate
+        }
+
+        setInterval(nowtime, '1000')
+    </script>
 </body>
 </html>

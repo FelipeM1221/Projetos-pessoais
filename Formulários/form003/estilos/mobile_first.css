@@ -20,8 +20,8 @@ body{
 main{ 
     position: absolute;
     display: block;
-    width: 366px;
-    height: 400px;
+    width: 300px;
+    height: 500px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -33,5 +33,80 @@ main{
 }
 
 main > section#titulo{
+    height: 255px;
     text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-image: linear-gradient(to bottom,  #dda2a1,  #dda2a117);
+}
+
+main > section#titulo > h1{
+    padding: 20px;
+}
+
+main > section#titulo > p#time{
+    margin-top: 50px;
+    color: white;
+    font-size: 2.0em;
+    text-shadow: 2px 2px 5px black;
+}
+
+main > section#dados{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 245px;
+
+    /* background-color: #dda2a181; */
+    background-image: linear-gradient(to top,  #dda2a1,  #dda2a117);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+div#emaill{
+    padding-top: 10px;
+}
+
+div#psww{
+    padding-top: 10px;
+}
+
+span.material-symbols-outlined{
+    position: absolute;
+    display: block;
+    height: 30px;
+    margin-top: 5px;
+}
+
+input.caixa{
+    width: 250px;
+    height: 30px;
+    margin-left: 30px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+main > section#dados > form > div#submit{
+    position: absolute;
+    bottom: 55px;
+    left: calc(50% - 50px);
+}
+
+main > section#dados > form > div#submit > input{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+main > section#dados > form > div#submit > input:hover{
+    background-color: #835bb5;
+    scale: 0.95;
+}
+
+main > section#dados > form > div#check{
+    position: absolute;
+    bottom: 10px;
+    margin-left: 10px;
 }
