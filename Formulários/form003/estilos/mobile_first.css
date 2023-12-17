@@ -30,6 +30,8 @@ main{
     border-radius: 20px;
     border: 2px solid rgba(255, 255, 255, 0.185);
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+
+    transition-duration: 0.2s;
 }
 
 main > section#titulo{
@@ -45,6 +47,7 @@ main > section#titulo > h1{
 }
 
 main > section#titulo > p#time{
+    position: relative;
     margin-top: 50px;
     color: white;
     font-size: 2.0em;

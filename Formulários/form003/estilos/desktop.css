@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+main{
+    width: 700px;
+    height: 300px;
+
+    transition-duration: 0.2s;
+}
+
+main > section#titulo{
+    width: 350px;
+    height: 300px;
+
+    background-image: linear-gradient(to right,  #dda2a1,  #dda2a117);
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 20px;
+}
+
+main > section#dados{
+    width: 350px;
+    height: 300px;
+    right: 0;
+
+    background-image: linear-gradient(to left,  #dda2a1,  #dda2a117);
+    border-top-left-radius: 0;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0;
+}
+
+div#emaill{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+div#psww{
+    margin-left: 20px;
+}
+
+main > section#dados > form > div#submit{
+    bottom: 80px;
+}
+
+main > section#dados > form > div#check{
+    right: 10px;
+}
