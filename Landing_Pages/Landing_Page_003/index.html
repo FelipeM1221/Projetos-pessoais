@@ -16,44 +16,67 @@
 <body>
     <div id="all">
         <header>
-            <div id="logo">
-                <img src="pagina-tenis-main/assets/Nike-Logo-1971-.....png" alt="">
-            </div>
+            <span class="material-symbols-outlined" onclick="clicar()">menu</span>
 
-            <nav>
+            <nav id="navegaçao">
                 <ul>
-                    <li>Coleções</li>
-                    <li>Lançamentos</li>
-                    <li>Promoções</li>
+                    <li><a href="#">Coleções</a></li>
+                    <li><a href="#">Lançamentos</a></li>
+                    <li><a href="#">Promoções</a></li>
                 </ul>
             </nav>
 
+            <!-- <div id="logo">
+                <img src="pagina-tenis-main/assets/style.png" alt="">
+            </div> -->
+
+
             <div id="cart">
-                <span class="material-symbols-outlined">
-                    shopping_cart
-                </span>
-                <a href="#">Carrinho</a>
+                <div id="shopping">
+                    <span class="material-symbols-outlined">
+                        shopping_cart
+                    </span>
+                    <a href="#">Carrinho</a>
+                </div>
             </div>
         </header>
 
         <main>
-            <div id="apresentation">
-                <h1>NIKE AIR ZOOM</h1>
-                <p>Novo lançamento</p>
-                <p>R$389,90</p>
+            <section id="apresentation">
+                <div id="details">
+                    <div id="content">
+                        <h1>NIKE AIR ZOOM</h1>
+                        <p>Novo lançamento</p>
+                        <p>R$389,90</p>
 
-                <div id="button">
-                    <button>DETALHES</button>
-                    <button>ADICIONAR CARRINHO</button>
+                        <div id="button">
+                            <button id="botao1" class="botao">DETALHES</button>
+                            <button id="botao2" class="botao">ADICIONAR CARRINHO</button>
+                        </div>
+                    </div>
                 </div>
 
                 <div id="tennis">
                     <div id="image_tennis">
-                        <!-- <img src="pagina-tenis-main/assets/tenis.png" alt="Imagem do tênis da Nike">    -->
+                        
                     </div>
                 </div>
-            </div>
+            </section>
         </main>
     </div>
 </body>
+
+<script>
+    function clicar(){
+        var elemento = window.document.getElementById('navegaçao')
+
+        if (elemento.style.display == 'none'){
+            elemento.style.display = 'block'
+        }
+
+        else{
+            elemento.style.display = 'none'
+        }
+    }
+</script>
 </html>

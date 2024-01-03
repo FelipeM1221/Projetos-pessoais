@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "nunito-sans";
+    src: url(../Fontes/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "nunito-sans";
+}
+
+div#all > header{
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.116);
+}
+
+div#all > header > span.material-symbols-outlined{
+    padding: 5px;
+}
+
+div#all > header > nav#navegaçao{
+    display: none;
+    width: 100px;
+    padding: 10px;
+    background-color: #282828;
+}
+
+div#all > header > nav#navegaçao > ul > li a{
+    text-decoration: none;
+    color: white;
+}
+
+div#all > header > nav#navegaçao > ul > li a:hover{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.678);
+}
+
+div#all > header > div#logo{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    margin: auto;
+}
+
+div#all > header > div#cart{
+    position: absolute;
+    padding: 5px;
+    top: 0;
+    right: 0;
+}
+
+div#all > header > div#cart > div#shopping > a{
+    position: relative;
+    top: -4px;
+    text-decoration: none;
+    color: black;
+}
+
+section#apresentation > div#details{
+    position: relative;
+    height: 50vh;
+    text-align: center;
+}
+
+section#apresentation > div#details > div#content{
+    position: relative;
+    top: 129px;
+}
+
+section#apresentation > div#details > div#content > h1, p{
+    padding: 5px;
+}
+
+section#apresentation > div#details > div#content > div#button{
+    padding-top: 20px;
+}
+
+section#apresentation > div#details > div#content > div#button > button.botao{
+    padding: 10px;
+    border: none;
+    margin: -1px;
+    color: white;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5) ;
+}
+
+section#apresentation > div#details > div#content > div#button > button#botao1{
+    background-color: grey;
+}
+
+section#apresentation > div#details > div#content > div#button > button#botao2{
+    background-color: #282828;
+}
+
+section#apresentation > div#tennis{
+    height: 45.5vh;
+    background-color: lightskyblue;
+}   
+
+section#apresentation > div#tennis > div#image_tennis{
+    position: relative;
+    top: -65px;
+    margin: auto;
+    width: 200px;
+    height: 146px;
+    background-image: url(../pagina-tenis-main/assets/tenis\(2\).png);
+}
