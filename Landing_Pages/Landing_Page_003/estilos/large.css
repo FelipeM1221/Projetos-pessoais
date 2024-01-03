@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+div#all > header > div#logo{
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    left: 10px;
+}
+
+div#all > header{
+    height: 35px;
+    text-align: center;
+}
+
+div#all > header > span.material-symbols-outlined{
+    display: none;
+}
+
+div#all header > nav#navegaçao{
+    display: none;
+}
+
+div#all header > nav#navegaçao2{
+    display: block;
+}
+
+div#all header > nav#navegaçao2 > ul{
+    padding-top: 5px;
+}
+
+div#all header > nav#navegaçao2 > ul > li{
+    display: inline ;
+}
+
+div#all > header > nav#navegaçao2 > ul > li > a{
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+}
+
+section#apresentation > div#details{
+    height: 95.1vh;
+    width: 50vw;
+}
+
+section#apresentation > div#details > div#content{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+section#apresentation > div#tennis{
+    position: absolute;
+    right: 0;
+    top: 36px;
+    height: 95.1vh;
+    width: 50vw;
+}
+
+section#apresentation > div#tennis > div#image_tennis{
+    width: 400px;
+    height: 293px;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    background-image: url(../pagina-tenis-main/assets/tenis\(1\).png);
+}

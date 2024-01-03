@@ -19,6 +19,10 @@ div#all > header{
     border-bottom: 1px solid rgba(0, 0, 0, 0.116);
 }
 
+div#all > header > div#logo{
+    display: none;
+}
+
 div#all > header > span.material-symbols-outlined{
     padding: 5px;
 }
@@ -39,10 +43,13 @@ div#all > header > nav#navegaçao > ul > li a:hover{
     border-bottom: 1px solid rgba(255, 255, 255, 0.678);
 }
 
+div#all header > nav#navegaçao2{
+    display: none;
+}
+
 div#all > header > div#logo{
     width: 50px;
     height: 50px;
-    background-color: red;
     margin: auto;
 }
 
@@ -96,7 +103,7 @@ section#apresentation > div#details > div#content > div#button > button#botao2{
 }
 
 section#apresentation > div#tennis{
-    height: 50vh;
+    height: 45.5vh;
     background-color: lightskyblue;
 }   
 
